@@ -3,7 +3,7 @@ namespace CodeRaider.DesignPatterns.FactoryMethod
 {
     public class StandardTransportFactory : BaseTransportFactory
     {
-        public override List<ITransport> CreateTransport(ILocation start, ILocation destination)
+        public override List<ITransport> CreateTransportOptions(ILocation start, ILocation destination)
         {
             var list = new List<ITransport>();
             list.Add(new Transport("Car", TransportCategory.Standard));

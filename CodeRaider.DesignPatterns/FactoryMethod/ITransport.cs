@@ -7,8 +7,6 @@ namespace CodeRaider.DesignPatterns.FactoryMethod
 
         public TransportCategory TransportCategory { get; set; }
 
-        TimeSpan GetEstimatedArrival();
-
-        IList<IRoute> GetRoutes();
+        IList<IRoute> GetRoutes(ILocation start, ILocation end);
     }
 }

@@ -5,7 +5,8 @@ namespace CodeRaider.DesignPatterns.FactoryMethod
     {
         public void GetAvailableTransportation(ILocation start, ILocation destination)
         {
-            var factory = new StandardTrans
+            var factory = new StandardTransportFactory();
+            var availableTransportation = factory.CreateTransport(start, destination); 
         }
       
     }

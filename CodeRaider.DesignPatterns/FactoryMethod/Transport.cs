@@ -12,14 +12,9 @@ namespace CodeRaider.DesignPatterns.FactoryMethod
         {
             Name = name;
             TransportCategory = category;
-        }
+        }              
 
-        public TimeSpan GetEstimatedArrival()
-        {
-            throw new NotImplementedException();
-        }
-
-        public IList<IRoute> GetRoutes()
+        public IList<IRoute> GetRoutes(ILocation start, ILocation end)
         {
             throw new NotImplementedException();
         }
