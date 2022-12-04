@@ -23,12 +23,11 @@
             //just an over-simplified example.  in reality would probably call a service to do this check
             if (location.State == "Texas")
             {
-                // dont really have subways in TX
-                return false;
+                return true;
             }
             else
             {
-                return true;
+                return false;
             }
         }
 
