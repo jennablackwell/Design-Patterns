@@ -1,9 +1,9 @@
-﻿namespace CodeRaider.DesignPatterns.FactoryMethod
+﻿namespace CodeRaider.DesignPatterns.FactoryMethod.After
 {
     public enum TransportCategory
     {
         Standard,
         External,
         Mass
-    }    
+    }
 }

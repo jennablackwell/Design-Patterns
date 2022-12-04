@@ -1,5 +1,4 @@
-﻿
-namespace CodeRaider.DesignPatterns.FactoryMethod
+﻿namespace CodeRaider.DesignPatterns.FactoryMethod.After
 {
     public abstract class BaseTransportFactory
     {

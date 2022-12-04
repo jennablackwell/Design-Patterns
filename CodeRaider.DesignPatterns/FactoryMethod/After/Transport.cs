@@ -1,10 +1,8 @@
-﻿
-
-namespace CodeRaider.DesignPatterns.FactoryMethod
+﻿namespace CodeRaider.DesignPatterns.FactoryMethod.After
 {
     public class Transport : ITransport
     {
-        
+
         public string Name { get; set; }
         public TransportCategory TransportCategory { get; set; }
 
@@ -12,7 +10,7 @@ namespace CodeRaider.DesignPatterns.FactoryMethod
         {
             Name = name;
             TransportCategory = category;
-        }              
+        }
 
         public IList<IRoute> GetRoutes(ILocation start, ILocation end)
         {

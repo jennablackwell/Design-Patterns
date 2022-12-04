@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CodeRaider.DesignPatterns.FactoryMethod
+namespace CodeRaider.DesignPatterns.FactoryMethod.After
 {
     public interface IRoute
     {
